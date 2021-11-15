@@ -1,0 +1,32 @@
+@use '../custom' as *;
+@use '../componentes/mixins' as *;
+
+.intro-section {
+  @include gradient;
+  padding: 10rem 0 0 0;
+  width: 100%;
+  height: 100%;
+  .img-box img {
+    animation: from-right 1.5s ease;
+  }
+}
+
+.download {
+  padding: 0 0 5rem 0;
+
+  &__logo-box {
+    max-width: 100%;
+    margin-bottom: 2rem;
+    padding: 0.5rem;
+    text-align: center;
+    position: relative;
+
+    img {
+      height: 100%;
+
+      &:hover {
+        filter: invert(30%);
+      }
+    }
+  }
+}

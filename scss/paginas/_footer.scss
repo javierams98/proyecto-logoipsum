@@ -1,0 +1,40 @@
+@use '../custom' as *;
+@use '../componentes/mixins' as *;
+
+.footer {
+  padding-top: 1rem;
+  background-color: $black;
+}
+
+.footer-sm {
+  background-color: #212121;
+  a {
+    color: $white;
+
+    i {
+      font-size: 1rem;
+      margin-left: 1rem;
+
+      @include media-breakpoint-up(sm) {
+        font-size: 1.6rem;
+      }
+    }
+  }
+}
+
+.footer-bottom {
+  &__copy {
+    color: $gray-600;
+    font-weight: 400;
+
+    a {
+      color: $gray-600;
+      text-decoration: none;
+
+      &:hover {
+        color: $primary;
+        text-decoration: underline;
+      }
+    }
+  }
+}

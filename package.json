@@ -1,0 +1,19 @@
+{
+  "name": "proyecto-javier-moreno",
+  "version": "1.0.0",
+  "description": "Mi primera pagina Web",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch scss:css"
+  },
+  "keywords": [
+    "bootstrap",
+    "sass"
+  ],
+  "author": "Javier Moreno",
+  "license": "" ,
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.4",
+    "bootstrap": "^5.1.0"
+  }
+}

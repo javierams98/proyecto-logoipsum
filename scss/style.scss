@@ -1,0 +1,18 @@
+@use "custom";
+
+//IMPORTAR COMPONENTES
+@use "componentes/animaciones";
+@use "componentes/botones";
+@use "componentes/mixins";
+@use "componentes/tipografia";
+
+//IMPORTAR PAGINAS
+
+@use "paginas/ayuda";
+@use "paginas/faq";
+@use "paginas/footer";
+@use "paginas/nosotros";
+@use "paginas/home";
+@use "paginas/navbar";
+@use "paginas/funciones";
+@use "paginas/error404";
